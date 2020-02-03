@@ -63,6 +63,9 @@ You can add and delete SSH keys by using the {{site.data.keyword.cloud_notm}} co
 
 You can also manage your SSH keys by using the CLI.
 
+You will require the IBM Cloud `vpc-infrastructure` plug-in to be installed when managing the SSH keys using the CLI, for more information about locating or installing the `vpc-infrastructure` plug-in see [IBM Cloud CLI for VPC](/docs/vpc-on-classic?topic=vpc-on-classic-vpc-reference#compute).{: note}
+
+
 | Action           | Command                     | What happens next |
 | ---------------- | --------------------------- | ----------------- |
 | Create SSH key   | `ibmcloud is key-create`    | After you create an SSH key, it is added to the list of keys. |
